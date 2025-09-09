@@ -1,0 +1,3 @@
+- ./${group}/${target}/inputs/protein/ contains the topology and pdb files of protein.
+- ./${group}/${target}/inputs/ligands/ has the topology and structure files (sdf and pdb) of ligands.
+- ./${group}/${target}/edge_${LigandA}_${LigandB}/hybridStrTop/ contains the merged pdb (mergedA.pdb and mergedB.pdb), itp (ffmerged.itp and merged_hmr.itp), and the corresponding pair (pairs1.dat and pairs2.dat) files. These files are generated using pmx atomMapping and ligandHybrid commands.
