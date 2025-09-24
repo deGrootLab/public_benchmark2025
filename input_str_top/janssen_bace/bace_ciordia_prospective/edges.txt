@@ -1,0 +1,12 @@
+spiro15 -> spiro1
+spiro1 -> spiro2
+spiro4 -> spiro1
+spiro10 -> spiro5
+spiro6 -> spiro10
+spiro15 -> spiro16
+spiro15 -> spiro6
+spiro16 -> spiro5
+spiro3 -> spiro2
+spiro4 -> spiro2
+spiro5 -> spiro2
+spiro3 -> spiro6

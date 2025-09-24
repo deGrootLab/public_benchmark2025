@@ -1,0 +1,10 @@
+ET -> IPT
+ET -> PT
+IBT -> PT
+IBT -> SBT_S
+MT -> IPT
+PT -> IPT
+PT -> MT
+PT -> SBT_R
+PT -> SBT_S
+SBT_S -> SBT_R

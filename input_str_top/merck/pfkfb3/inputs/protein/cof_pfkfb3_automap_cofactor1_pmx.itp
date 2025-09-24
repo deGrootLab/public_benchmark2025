@@ -1,0 +1,62 @@
+
+[ atomtypes ]
+;  name  bond_type          mass        charge  ptype   sigma      epsilon
+cof_pfkfb3_automap_cofactor1_0         8   15.9994    0.0000    A         2.99716e-01         8.76437e-01
+cof_pfkfb3_automap_cofactor1_1        15   30.9738    0.0000    A         3.74177e-01         8.36800e-01
+cof_pfkfb3_automap_cofactor1_2         8   15.9994    0.0000    A         3.03981e-01         8.79502e-01
+cof_pfkfb3_automap_cofactor1_3         8   15.9994    0.0000    A         3.03981e-01         8.79502e-01
+cof_pfkfb3_automap_cofactor1_4         8   15.9994    0.0000    A         3.03981e-01         8.79502e-01
+cof_pfkfb3_automap_cofactor1_5         1    1.0079    0.0000    A         5.34539e-02         5.15720e-05
+
+
+
+[ moleculetype ]
+; Name        nrexcl
+cof_pfkfb3_automap_cofactor1  3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+     1 cof_pfkfb3_automap_cofactor1_0      1    CF1      O      1   -0.815233    13.9834
+     2 cof_pfkfb3_automap_cofactor1_1      1    CF1      P      1    1.320067    30.9738
+     3 cof_pfkfb3_automap_cofactor1_2      1    CF1      O      1   -0.956333    15.9994
+     4 cof_pfkfb3_automap_cofactor1_3      1    CF1      O      1   -0.956333    15.9994
+     5 cof_pfkfb3_automap_cofactor1_4      1    CF1      O      1   -0.956333    15.9994
+     6 cof_pfkfb3_automap_cofactor1_5      1    CF1      H      1    0.364167     3.0238
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+     1      2      1    0.162810172084   218596.8676476299
+     1      6      1    0.097523010081   450491.94443175214
+     2      3      1    0.148549581345   548217.5655459097
+     2      4      1    0.148549581345   548217.5655459097
+     2      5      1    0.148549581345   548217.5655459097
+
+[ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
+     4      6      1
+     3      6      1
+     5      6      1
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+     1      2      3      1    108.907171     751.926072 
+     1      2      4      1    108.907171     751.926072 
+     1      2      5      1    108.907171     751.926072 
+     2      1      6      1    112.873616    1003.288804 
+     3      2      4      1    108.907171     751.926072 
+     3      2      5      1    108.907171     751.926072 
+     4      2      5      1    108.907171     751.926072 
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+     3      2      1      6    1 0.000000000000 1.816605121206 3
+     3      2      1      6    1 0.000000000000 39.155335190418 1
+     3      2      1      6    1 0.000000000000 -7.896277353469 2
+     4      2      1      6    1 0.000000000000 1.816605121206 3
+     4      2      1      6    1 0.000000000000 39.155335190418 1
+     4      2      1      6    1 0.000000000000 -7.896277353469 2
+     5      2      1      6    1 0.000000000000 1.816605121206 3
+     5      2      1      6    1 0.000000000000 39.155335190418 1
+     5      2      1      6    1 0.000000000000 -7.896277353469 2
+
+
