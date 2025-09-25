@@ -1,0 +1,5 @@
+17charg -> 18
+17charg -> 8
+4charg -> 8
+9 -> 18
+9 -> 4charg

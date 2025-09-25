@@ -1,0 +1,4 @@
+19charg -> 20
+20 -> 33
+47charg -> 19charg
+47charg -> 33

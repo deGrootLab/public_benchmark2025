@@ -1,0 +1,6 @@
+19charg -> 27
+19charg -> 28charg
+19charg -> 29
+28charg -> 27
+29 -> 27
+29 -> 28charg

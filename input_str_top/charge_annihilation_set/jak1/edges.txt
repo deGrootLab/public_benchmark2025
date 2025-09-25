@@ -1,0 +1,7 @@
+17 -> 16charg
+17 -> jmc_22
+17 -> jmc_25
+18charg -> 16charg
+18charg -> jmc_34
+jmc_25 -> jmc_22
+jmc_25 -> jmc_34
